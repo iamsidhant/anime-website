@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONT AWESOME -->
+    
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
     <!-- SWIPER CSS -->
@@ -16,40 +16,71 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
 
-    <!-- CSS -->
+    
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Responsive anime website</title>
+    <title>Responsive Anime Website</title>
   </head>
   <body>
-    <!--==== HEADER =====-->
-    <header class="header" id="header"></header>
+    
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <img src="img/logo.png" alt="" class="nav__logo-img">
+        </a>
 
-    <!--==== MAIN =====-->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link" active-link>Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Online Anime</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Our Process</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Plans</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    
     <main class="main">
-      <!--==================== HOME ====================-->
+      
       <section class="home"></section>
 
-      <!--==================== BRAND ====================-->
+      
       <section class="brand"></section>
 
-      <!--==================== SPECIAL ANIME ====================-->
+      
       <section class="special__anime container section"></section>
 
-      <!--==================== SUBSCRIPTION ====================-->
+      
       <section class="subscription"></section>
 
-      <!--==================== POPULAR ANIME ====================-->
+      
       <section class="popular__anime container section"></section>
 
-      <!--==================== TRENDING ANIME ====================-->
+      
       <section class="trending__anime section"></section>
     </main>
 
 
     <footer class="footer"></footer>
 
-    <!--=============== SWIPER JS ===============-->
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
