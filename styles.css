@@ -99,6 +99,15 @@ img {
   gap: 1.5rem;
 }
 
+.section{
+  padding: 4rem 3.5rem;
+}
+
+.section__title{
+  font-size: var(--h1-font-size);
+  margin-bottom: 1.75rem;
+}
+
 /* HEADER & NAV */
 .header{
   position: fixed;
