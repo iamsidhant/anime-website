@@ -1,5 +1,13 @@
 
+// scroll header
+function scrollHeader(){
+  const header = document.getElementById('header');
+  // when the scroll is greater than 40 viewport height, add the scroll-header class to header tag
+  if(this.scrollY >= 40) header.classList.add('scroll-header');
+  else header.classList.remove('scroll-header');
+}
 
+window.addEventListener('scroll', scrollHeader);
 
 // brand swiper
 
