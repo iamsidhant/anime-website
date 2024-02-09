@@ -436,6 +436,11 @@ img {
     width: 400px;
     height: 100%;
     padding: 4rem 1rem;
+    transition: all 0.3s var(--transition);
+  }
+
+  .show__menu{
+    right: 0;
   }
   
   .nav__list{
@@ -479,7 +484,33 @@ img {
 
 /* For small devices */
 @media screen and (max-width: 576px) {
+  .section{
+    padding-block: 3rem;
+  }
+
+  .nav{
+    height: var(--header-height);
+  }
+
+  .nav__menu{
+    width: 100%;
+  }
+
+  .footer__container{
+    padding-block: 2rem;
+  }
 }
 
 @media screen and (max-width: 463px) {
+  .brand__logo{
+    width: 55%;
+  }
+
+  .footer__anime-item img{
+    width: 85px;
+  }
+
+  .footer__instagram{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
