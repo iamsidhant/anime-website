@@ -31,6 +31,10 @@ var brandSwiper = new Swiper(".brand-swiper", {
           slidesPerView: 5,
           spaceBetween: 24,
         },
+        1403: {
+          slidesPerView: 6,
+          spaceBetween: 24,
+        },
     },
 });
 
@@ -54,6 +58,10 @@ var animeSwiper = new Swiper(".anime-swiper", {
         },
         1203: {
           slidesPerView: 5,
+          spaceBetween: 24,
+        },
+        1403: {
+          slidesPerView: 6,
           spaceBetween: 24,
         },
     },
